@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    /* height: 100vh; */
+    /* overflow: scroll; */
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#button{
+    height: 80px;
+    font-size: 18px;
+    width: 200px;
+    /* position: fixed; */
+    margin: 50px 0px;
+}
+
+#basket{
+    min-height: 16vh;
+    min-width: 79vw;
+    max-width: 79vw;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: aqua;
+    margin: 20px;
+}
+
+.ball{
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    border-radius: 50%;
+}
